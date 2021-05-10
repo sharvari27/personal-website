@@ -1,0 +1,6 @@
+index1.html : homestyle.css
+project1.html : style.css
+contact1.html : 2.css : cont1.php
+about.html : style.css
+registration1.html : entry_details.php
+feedback1.html : feeddb.php
