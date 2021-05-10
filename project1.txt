@@ -1,0 +1,108 @@
+<html>
+
+<head>
+	<title>PROJECT</title>
+	<link rel="stylesheet" type="text/css"href="style1.css">
+
+</head>
+
+
+	<header>
+		
+		<div class="main">
+			<nav>
+			
+			<div class="logo">
+			
+				<img src="collegelogo.jpg">
+				<p>college name<p>
+					
+				</p>
+			
+			</div>
+			
+			
+			
+			
+			<ul>
+				<li><a href="file:///C:/xampp/htdocs/www/index1.html">HOME</a></li>
+				<li><a href="file:///C:/xampp/htdocs/www/project1.html">PROJECT</a></li>
+				<li><a href="file:///C:/xampp/htdocs/www/about1.html">ABOUT ME</a></li>
+				<li><a href="http://localhost/www/contact1.html">CONTACT</a></li>
+				<li><a href="http://localhost/www/registration1.html">FEEDBACK</a></li>
+			</ul>
+			
+			
+			
+			</nav>
+		</div>
+			
+	</header>
+<body>
+		
+		
+		<div class="title1">
+		<h2>LAND OF CULTURE & RELIGION</h2>
+		</div>
+		
+		<div class="intro">
+			<p>is a state in the northern part of India. Situated in the Western Himalayas, it is one of the eleven mountain states and is characterized by an extreme landscape featuring several peaks and extensive river systems. In 2019, I went for a trip to Himachal Pradesh and the beauty of it left me FLABBERGASTED!! This is my project related to tourism and beautiful places of Himachal Pradesh. To sort this confusion of where to go and what to see, here’s an elaborate compilation of northern India’s best tourist destinations.<br>Pick your dream destination and plan your most amazing holiday in India.<br>&#x2744;The pictures below were clicked by me during the wonderful trip&#x2744;</p>
+			
+		</div>
+		
+		<div class="title2">
+		<h2>HIMACHAL PRADESH</h2>
+		</div>
+		
+		
+		<div class="gallery1">
+			<a target="_blank" href="image.jpeg">
+			<img src="image.jpeg" alt="MANALI" width="25%" height="auto">
+			</a>
+			<div class="desc"><h3>MANALI,HIMACHAL PRADESH</h3>Situated near the end of valley, Manali is one of the most attractive tourist spot not only of Himachal Pradesh, but of International fame also. Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains.<h3>Best time to Visit</h3>October to February is the winter season and is considered to be the best time to visit Manali if you like the cold and January is best to enjoy the chilly pleasure of fresh snowfall . The temperature drops down below zero degrees Celsius.<a href="https://timesofindia.indiatimes.com/travel/destinations/how-to-reach-manali/as48465467.cms">Click here to know how to reach Manali</a></div>
+		</div>
+		<div class="gallery2">
+			<a target="_blank" href="image.jpeg">
+			<img src="image.jpeg" alt="mountains" width="25%" height="auto">
+			</a>
+			<div class="desc"><h3>MOUNTAINS OF HIMACHAL</h3>There are 509 named mountains in Himachal Pradesh. Reo Purgyil is the highest point. The most prominent mountain is <a href="https://peakvisor.com/peak/shikhar-beh.html?yaw=0.00&pitch=0.00&hfov=91.29">Shikhar Beh.</a>Mountains of Himachal Pradesh are breathtakingly beautiful. Covered in snow during winters and wide green during summer.</div>
+			<a href="https://en.wikipedia.org/wiki/List_of_mountain_peaks_of_Himachal_Pradesh"><button class="button button1">List of Himachal Mountains</button></a>
+
+		</div>
+		<div class="gallery3">
+			<a target="_blank" href="image.jpeg">
+			<img src="image.jpeg" alt="DALAI LAMA TEMPLE" width="25%" height="auto">
+			</a>
+			<div class="desc"><h3>DALAI LAMA TEMPLE</h3>There is a reason why Dharamshala is famous for its monasteries. The place has the grandest and picturesque monasteries in India that have preserved the Buddhist and Tibetan culture after the Dalai Lama’s exile from Tibet. While there are other famous tourist attractions such as the Dharamshala cricket stadium, tea gardens, Kangra fort and rock temples of Masroor in and around Dharamshala, one can certainly not miss visiting the monasteries in Dharamshala.
+
+				I would urge even the most unreligious souls to visit them for the aesthetic and cultural experience that they provide. </div>
+		</div>
+		
+		<div class="gallery4">
+			<a target="_blank" href="image.jpeg">
+			<img src="image.jpeg" alt="Hidimba temple" width="25%" height="auto">
+			</a>
+			<div class="desc"><h3>HIDIMBA TEMPLE</h3>Hadimba Temple, which was constructed in the 16th century, is one of the best places to visit in Manali and is located amid a beautiful deodar forest on top of a hill in Manali. The temple holds great significance for the locals and also the tourists who frequently visit the pilgrim spot to seek blessings from Goddess Hadimba. The temple is dedicated to the Goddess Hadimba who was also the wife of the strongest of the Pandava brothers, Bhima. So, she was given the position of Goddess by the most powerful Goddess Durga, whose 10 centimeter footprint is preserved at the entrance of the temple.</div>
+		</div>
+		
+		<div class="gallery5">
+			<video width="100%" height="auto" controls> <source src="video.mp4" type=video/mp4 frameborder="0" allow=" picture-in-picture" allowfullscreen></video>
+			<div class="desc"><h3>RIVERS OF HIMACHAL</h3>The surreal state of Himachal Pradesh boasts many rivers that run through its popular, lesser-known, and unexplored destinations, making an essential part of the landscape. The gurgling and forming rivers of Himachal truly make for its lifeline; it is through them many quench their thirst and earn their livelihoods, whereas for some these streams are the adventure they were looking for. The drainage system of Himachal Pradesh has five rivers - the Chandrabhaga or Chenab, the Sutlej, Ravi, Yamuna, and the Beas.  These are perennial rivers fed either by a glacier or rainfall.The two important rivers in Himachal Pradesh, the Yamuna and the Sutlej do not have their origin in the state. While the Yamuna rises in the Uttarkashi District of Uttarakhand, the Sutlej takes a difficult journey of crossing the Indo-Tibet border and flowing through the rugged terrains of Spiti to reach the state. Fore more visit <a href="https://www.tourmyindia.com/states/himachal/rivers.html">this<a/></div>
+		</div>
+		
+		<div class="gallery6">
+			<a target="_blank" href="image.jpeg">
+			<img src="image.jpeg" alt="KASOL" width="25%" height="auto">
+			</a>
+			<div class="desc"><h3>KASOL</h3>Kasol is a hamlet in the district Kullu of the Indian state of Himachal Pradesh. It is situated in Parvati Valley, on the banks of the Parvati River, on the way between Bhuntar and Manikaran. It is located 30 km from Bhuntar and 3.5 km from Manikaran. Kasol is the Himalayan hotspot for backpackers and acts as a base for nearby treks to Malana and Kheerganga. It is called Mini Israel of India due to a high percentage of Israeli tourists here.Camping in Kasol has been a tradition over the years. The hamlet is a perfect base for trekking as it has functional connectivity with valleys and hills nearby. For more camping in kasol info <a href="https://www.holidify.com/pages/camping-in-kasol-1950.html">click here</a></div>
+		</div>
+			
+		
+			
+
+		
+
+	
+	
+</body>
+</html>

@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+	
+        <script language="javascript">
+            function validateForm() {
+                var fn = document.forms["RegisterationFormMain"]["fname"].value;
+                if(fn == "") {
+                    alert("Please Enter First Name");
+                    return false;
+                }
+
+                var mn = document.forms["RegisterationFormMain"]["mname"].value;
+                if(mn == "") {
+                    alert("Please Enter Middle Name");
+                    return false;
+                }
+
+                var ln = document.forms["RegisterationFormMain"]["lname"].value;
+                if(ln == "") {
+                    alert("Please Enter Last Name");
+                    return false;
+                }
+
+                var gen = document.forms["RegisterationFormMain"]["gender"].value;
+                if(gen == "") {
+                    alert("Please Specify Gender");
+                    return false;
+                }
+
+             
+                
+
+                var resadd = document.forms["RegisterationFormMain"]["ResAdd"].value;
+                
+                if(resadd == "") {
+                    alert("Please Enter Residential Address.");
+                    return false;
+                }
+                
+
+                var emID = document.forms["RegisterationFormMain"]["emailID"].value;
+                var EmailVal=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if(emID == "" || !EmailVal.test(emID)) {
+                    alert("Invalid E-mail ID!");
+                    return false;
+                }
+
+                var mob = document.forms["RegisterationFormMain"]["phone"].value;
+                var MobVal = /^[789]\d{9}$/;
+                if(mob == "" || !MobVal.test(mob)) {
+                    alert("Invalid Contact Number!");
+                    return false;
+                }
+
+                
+                var np = document.forms["RegisterationFormMain"]["npass"].value;
+                var PassVal = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+                if(np=="" || !PassVal.test(np)) {
+                    window.alert("Invalid Or Weak Password!");
+                    return false;
+                }
+				
+                
+                //Form Validation Ends Here!
+            }
+        </script>
+
+    </head>
+
+    <body bgcolor="#E9F9D1"> <center> <font face="Goudy old style">
+        <h1>REGISTER FIRST!</h1>
+        <form name="RegisterationFormMain" action="feedback1.html" action="entry_deatils.php" method="post" onsubmit="return validateForm()">
+            <table bgcolor="#DDA0DD" border="2px" cellpadding="15px" cellspacing="3px" width="30%">
+                <tr>
+                    <th align="right">First Name</th>
+                    <td><input type="text" size="100%" name="fname" value=""></td>
+                </tr> <tr>
+                    <th align="right">Middle Name</th>
+                    <td><input type="text" size="100%" name="mname" value=""></td>
+                </tr> <tr>
+                    <th align="right">Last Name</th>
+                    <td><input type="text" size="100%" name="lname" value=""></td>
+                </tr>
+
+                <tr>
+                    <th align="right">Gender</th>
+                    <td>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="other">Other
+                    </td>
+                </tr>
+
+                
+
+         
+
+                
+
+                <tr>
+                    <th align="right">Residential Address</th>
+                    <td><input type="text" size="100%" name="ResAdd" value=""></td>
+                </tr>
+
+                
+
+                <tr>
+                    <th align="right">Email ID</th>
+                    <td><input type="text" name="emailID" size="70%"></td>
+                </tr>
+
+                <tr>
+                    <th align="right">Mobile</th>
+                    <td>+91 - <input type="text" name="phone"></td>
+                </tr>
+
+
+              
+                <tr>
+                    <th align="right">New Password</th>
+                    <td><input type="password" name="npass" value=""> (6 to 20 characters, must contain at least 1 uppercase, 1 lowercase and 1 numeric value)</td>
+                </tr> 
+
+                <tr align="center">
+                    <td colspan="2">
+                        <input type="submit" name="save" value="Submit">
+                        
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </font> </center> </body>
+
+</html>

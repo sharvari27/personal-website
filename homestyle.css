@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	font-size:20;
+}
+
+nav ul{
+	float:right;
+	list-style-type:none;
+	margin:40px;
+	padding:0px;
+	position:top right fixed;
+	
+	 
+}
+
+nav ul li{
+	display:inline-block;
+	
+	
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#DDA0DD;
+	padding:40px 20px;
+	border:0 solid #C0C0C0;
+	
+	
+}
+
+nav ul li a:hover{
+	background-color:#DDA0DD;
+	color:white;
+}
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+.logo p{
+	float:left;
+	margin:0 0 0 10px;
+	font-family:Goudy Old Style;
+	color:white;
+	font-style:normal;
+	font-size:20;
+}
+ 
+	
+	
+
+
+
+nav{
+	width:100%;
+	height:100px;
+	background-color:#696969;
+	position:absolute;
+	top:0;
+	
+}
+
+
+.bckimg{
+	width:100%;
+	height: 100vh;
+	background-image:url('back1.jpg');
+	background-size:cover;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	color: #db4dff;
+}
+.profile{
+	width:400px;
+	background-color:  #e6ccff;
+	padding: 30px,0;
+	border-radius:10%;
+	
+
+}
+
+img{
+	height:40%;
+	width:60%;
+	border-radius:70%;
+}
+
+.profiletext p{
+	font-family:Imprint MT Shadow;
+	font-size:16;
+	color: #b800e6;
+}
+.profiletext h1{
+	font-family:Imprint MT Shadow;
+	font-size:25;
+}
+	

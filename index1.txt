@@ -1,0 +1,45 @@
+<header>
+		
+		<div class="main">
+			<nav>
+			
+				<div class="logo">
+			
+					<img src="collegelogo.jpg">
+					<p>college name<p>
+					
+					</p>
+			
+				</div>
+			
+				<ul>
+					<li><a href="file:///C:/xampp/htdocs/www/index1.html">HOME</a></li>
+					<li><a href="file:///C:/xampp/htdocs/www/project1.html">PROJECT</a></li>
+					<li><a href="file:///C:/xampp/htdocs/www/about1.html">ABOUT ME</a></li>
+					<li><a href="http://localhost/www/contact1.html">CONTACT</a></li>
+					<li><a href="http://localhost/www/registration1.html">FEEDBACK</a></li>
+				</ul>
+			
+			
+			
+			
+		</div>
+			</nav>
+			
+		
+	</header>
+		
+<body>
+			<div class="bckimg">
+			<div class="profile">
+				<img src="yourimage.jpeg">
+				<div class="profiletext">
+					<p>your name here</p>
+					<h1>WELCOME TO MY HOMEPAGE</h1>
+				</div>
+				<div class="profilefont">
+					<a href="https://www.instagram.com/instagram_handle/"><i class="fa fa-instagram"></i></a>
+			</div>
+			</div>
+</body>
+</html>

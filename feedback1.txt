@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FEEDBACK</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Calibri, Helvetica, sans-serif;background-image:url(back1.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  transform: translate(0%,10%);
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  color: black;
+}
+
+nav ul{
+	float:right;
+	list-style-type:none;
+	margin:40px;
+	padding:0px;
+	position:top right fixed;
+	
+	 
+}
+
+nav ul li{
+	display:inline-block;
+	
+	
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#DDA0DD;
+	padding:40px 20px;
+	border:0 solid #C0C0C0;
+	
+	
+}
+
+nav ul li a:hover{
+	background-color:#DDA0DD;
+	color:white;
+}
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+.logo p{
+	float:left;
+	margin:0 0 0 10px;
+	font-family:Goudy Old Style;
+	color:white;
+	font-style:normal;
+	font-size:20;
+}
+ 
+nav{
+	width:100%;
+	height:100px;
+	background-color:#696969;
+	position:absolute;
+	top:0;
+	
+}
+</style>
+</head>
+
+<header>
+		
+		<div class="main">
+			<nav>
+			
+				<div class="logo">
+			
+					<img src="download.jpg">
+					<p
+					
+					</p>
+			
+				</div>
+			
+				<ul>
+					<li><a href="index1.html">HOME</a></li>
+					<li><a href="project1.html">PROJECT</a></li>
+					<li><a href="about1.html">ABOUT ME</a></li>
+					<li><a href="contact1.html">CONTACT</a></li>
+					<li><a href="registration1.html">FEEDBACK</a></li>
+				</ul>
+			
+			
+			
+			
+		</div>
+			</nav>
+			
+		
+	</header>
+
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="feeddb1.php" method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<label>How do you rate your overall experience?</label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Bad 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        Average 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Good 
+                                    </label><br><br>
+			
+			<label for="myfile">Send me your favourite destination!:</label>
+  <input type="file" id="myfile" name="myfile"><br>
+  
+			<label for="pic">Which was your Favourite picture of my Project?:</label>
+			<select name="pic"  style="width:30%">
+    <option value="manali">MANALI</option>
+    <option value="mountains of Himachal">MOUNTAINS OF HIMACHAL</option>
+    <option value="Dalai Lama Temple">DALAI LAMA TEMPLE</option>
+    <option value="Hidimba Temple">HIDIMBA TEMPLE</option>
+	<option value="Rivers of Himachal">RIVER OF HIMACHAL</option>
+	<option value="Kasol">KASOL</option>
+  </select><br>
+  
+	<label for="like[]">What did you like about my Website?<br>
+	
+						<input type="checkbox" name="like[]" value="User-friendly">User-friendly
+                        <input type="checkbox" name="like[]" value="Images">Images
+                        <input type="checkbox" name="like[]" value="Info">Info
+						<input type="checkbox" name="like[]" value="Appearance">Appearance
+	</label><br><br>
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

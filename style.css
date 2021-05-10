@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+	font-size:20;
+}
+
+body
+{
+	background-image:url(back1.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+nav ul{
+	float:right;
+	list-style-type:none;
+	margin:40px;
+	padding:0px;
+	position:top right fixed;
+	
+	 
+}
+
+nav ul li{
+	display:inline-block;
+	
+	
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#DDA0DD;
+	padding:40px 20px;
+	border:0 solid #C0C0C0
+	
+	
+}
+
+nav ul li a:hover{
+	background-color:#DDA0DD;
+	color:white;
+}
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+.logo p{
+	float:left;
+	margin:0 0 0 10px;
+	font-family:Goudy Old Style;
+	color:white;
+	font-style:normal;
+	font-size:20;
+}
+ 
+	
+	
+nav{
+	width:100%;
+	height:100px;
+	background-color:#696969;
+	position:absolute;
+	top:0;
+	
+}
+.title p{
+	position:absolute;
+	top:20%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#4B0082;
+	font-size:24;
+	font-family:Imprint MT Shadow;
+	
+}
+.tab{
+	display:inline-block;
+	margin-left:70%;
+	position : absolute;
+}
+.title img{
+	width:200px;
+	height:140px;
+	margin:7% 0 0 72%;
+	border:3px solid black;
+}
+
+.container{
+	border-radius: 5px;
+	background-color:white;
+	padding:20px;
+	margin:40px;
+	height:370px;
+	background-color:#fadbfa;
+	box-shadow: 10px 10px 5px f29fd1;
+	
+}
+.container table{
+	width:1200px;
+	height:auto;
+	
+}
+
+.container img{
+	width:300px;
+	height:340px;
+	margin:10px;
+	border:2px solid pink;
+}
+.container h1{
+	/*position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-40%,-40%);*/
+	font-size:30;
+	font-family:Imprint MT Shadow;
+	color:#39004d;
+	text-align:center;
+
+	
+}
+
+.container p{
+	
+	font-size:24;
+	font-family:High Tower Text;
+	color:#39004d;
+
+}
+
+.video iframe{
+	margin:40px;
+	position:absolute;
+	left:30%;
+}
+.video p{
+	position:absolute;
+	left:10%;
+	font-family:Century;
+	font-size:20;
+	color:#8B008B;
+}
+	
+
+
+
+	
+
+	

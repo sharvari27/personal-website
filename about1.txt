@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>ABOUT</title>
+	<link rel="stylesheet" type="text/css"href="style.css">
+</head>
+
+
+	<header>
+		
+		<div class="main">
+			<nav>
+			
+				<div class="logo">
+			
+					<img src="download.jpg">
+					<p><p>
+					
+					</p>
+			
+				</div>
+			
+			
+			
+			
+				<ul>
+					<li><a href="file:///C:/xampp/htdocs/www/index1.html">HOME</a></li>
+					<li><a href="file:///C:/xampp/htdocs/www/project1.html">PROJECT</a></li>
+					<li><a href="file:///C:/xampp/htdocs/www/about1.html">ABOUT ME</a></li>
+					<li><a href="http://localhost/www/contact1.html">CONTACT</a></li>
+					<li><a href="http://localhost/www/registration1.html">FEEDBACK</a></li>
+				</ul>
+			
+			
+			
+			
+		</div>
+			</nav>
+			
+		
+	</header>
+		
+<body>
+	<div class="title">
+			<p>You only live once? False. You live every day. You only die once.<br>
+			   <span class="tab"></span> -Dwight Schrute
+			</p>
+			<img src="https://tenor.com/view/the-office-dwight-schrute-rainn-wilson-its-true-gif-16250280.gif"alt="gif"/>
+	</div>
+	<div class="container">
+	
+	<table>
+		<tr>
+		<td>
+		<img src="yourimage.jpeg">
+		</td>
+		<td><h1>WELCOME TO MY HOMEPAGE</h1><br>
+		<p>introduce yourself😃</p>
+		</td>
+		</tr>
+		
+	</table>
+	
+	</div>
+	
+	<div class="video">
+		<p>NOW THAT YOU'VE SCROLLED MY PAGE, HERE IS ONE OF MY FAVOURITE SHORT ANIMATED FILM. DO WATCH🎥✨</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mVLrBJYGxk4" frameborder="0" allow=" encrypted-media; picture-in-picture" allowfullscreen>
+		</iframe>
+			
+	</div>
+		
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$database_name="feedback";
+
+$conn=mysqli_connect($servername,$username,$password,$database_name);
+
+if(!$conn)
+{die("Connection Failed:" . mysqli_connect_error());
+}
+
+if(isset($_POST['subject']))
+{
+
+	$firstname= $_POST['firstname'];
+	$lastname= $_POST['lastname'];
+	$experience=$_POST['experience'];
+	$myfile=$_POST['myfile'];
+	$pic=$_POST['pic'];
+	$like=$_POST['like'];
+	$subject= $_POST['subject'];
+	$str=implode(",",$like);
+	//echo "$str";
+	
+	$sql_query = "INSERT INTO feed VALUES('$firstname','$lastname','$experience','$myfile','$pic','$str','$subject')";
+	
+	if(mysqli_query($conn, $sql_query))
+	{
+		echo "thank you for your feedback";
+	
+	}
+	
+	mysqli_close($conn);
+}
+
+?>
